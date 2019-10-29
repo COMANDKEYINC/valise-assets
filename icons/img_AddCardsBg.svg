@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>img_AddCardsBg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="22.4149385%" y1="0%" x2="87.9917966%" y2="68.3456116%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.112325175" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0198317308" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.4956615%" y1="22.6160866%" x2="78.099897%" y2="53.3029399%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.126092657" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0214160839" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button/AddCards/x/BG">
+            <polygon id="Path-2" fill="url(#linearGradient-1)" points="0 0 76 76 76 0"></polygon>
+            <polygon id="Path-2-Copy" fill="url(#linearGradient-2)" points="8 0 85 52 85 0"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="30px" viewBox="0 0 50 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>img_Switch-On</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5460784,0.0891791103 C17.2519608,-0.0075946081 18.9558824,0.000147289369 20.6617647,0.000147289369 L29.3058824,0.000147289369 C31.045098,0.000147289369 32.7490196,-0.0075946081 34.4539216,0.0891791103 C36.0039216,0.176275457 37.5137255,0.362080996 39.0166667,0.777240248 C42.1803922,1.65013919 44.9431373,3.47335604 46.9401961,6.05818206 C48.9254902,8.62655655 50,11.7707347 50,14.9991059 C50,18.2313481 48.9254902,21.3735907 46.9401961,23.9419652 C44.9431373,26.5258235 42.1803922,28.3500081 39.0166667,29.222907 C37.5137255,29.6380663 36.0039216,29.8229041 34.4539216,29.9109682 C32.7490196,30.0077419 31.045098,29.9990323 29.3392157,29.9990323 C29.327451,29.9990323 20.6931373,30 20.6931373,30 C18.9558824,29.9990323 17.2519608,30.0077419 15.5460784,29.9109682 C13.9970588,29.8229041 12.4872549,29.6380663 10.9843137,29.222907 C7.82058824,28.3500081 5.05784314,26.5258235 3.06078431,23.9419652 C1.0754902,21.3735907 0,18.2313481 0,15.0000736 C0,11.7707347 1.0754902,8.62655655 3.06078431,6.05818206 C5.05784314,3.47335604 7.82058824,1.65013919 10.9843137,0.777240248 C12.4872549,0.362080996 13.9970588,0.176275457 15.5460784,0.0891791103 Z" id="path-1"></path>
+        <circle id="path-3" cx="35" cy="15" r="13"></circle>
+        <filter x="-51.9%" y="-40.4%" width="203.8%" height="203.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button/Switch/On">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#3DC1D3" xlink:href="#path-1"></use>
+            <g id="knob" mask="url(#mask-2)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
