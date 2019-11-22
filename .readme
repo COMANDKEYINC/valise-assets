@@ -1,4 +1,0 @@
-if you want to pull the last commit on the parent project of the submodule
-execute this command.
-
-> git submodule update --remote --merge
